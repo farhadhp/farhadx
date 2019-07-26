@@ -29,6 +29,10 @@ permalink: /about/
 
 [گیت‌هاب](https://github.com/farhadhp)
 
+[گیت‌لب](https://gitlab.com/farhadhp)
+
+[اینستاگرام](https://instagram.com/farhad.hassan.pour)
+
 ### پانوشت
 
 1: گیت‌هاب درسته شبکه اجتماعی نیست اما میشه گفت یه جورایی شبکه اجتماعی برنامه نویس‌هاست که بجای تصویر سورس کد پروژه‌هاشون رو به اشتراک می‌گذارند.
