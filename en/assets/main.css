@@ -7,26 +7,11 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
-@font-face {
-  font-family: Sahel;
-  src: url("../../assets/fonts/Sahel.eot");
-  src: url("../../assets/fonts/Sahel.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Sahel.woff") format("woff"), url("../../assets/fonts/Sahel.ttf") format("truetype");
-  font-weight: normal; }
-@font-face {
-  font-family: Sahel;
-  src: url("../../assets/fonts/Sahel-Bold.eot");
-  src: url("../../assets/fonts/Sahel-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Sahel-Bold.woff") format("woff"), url("../../assets/fonts/Sahel-Bold.ttf") format("truetype");
-  font-weight: bold; }
-@font-face {
-  font-family: Sahel;
-  src: url("../../assets/fonts/Sahel-Black.eot");
-  src: url("../../assets/fonts/Sahel-Black.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Sahel-Black.woff") format("woff"), url("../../assets/fonts/Sahel-Black.ttf") format("truetype");
-  font-weight: 900; }
 /**
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 sahel, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -37,8 +22,7 @@ body {
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
-  direction: rtl; }
+  flex-direction: column; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -92,10 +76,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #19B5FE;
+  color: #2a7ae2;
   text-decoration: none; }
   a:visited {
-    color: #018aca; }
+    color: #1756a9; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -108,12 +92,12 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #C72C1C;
-  border-right: 4px solid #f5bfba;
-  padding-right: 15px;
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
-  font-weight: bold; }
+  font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -123,7 +107,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #f5bfba;
+  border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -170,7 +154,7 @@ pre {
   width: 16px;
   height: 16px;
   display: inline-block;
-  fill: #C72C1C;
+  fill: #828282;
   padding-right: 5px;
   vertical-align: text-top; }
 
@@ -186,24 +170,24 @@ table {
   text-align: left;
   color: #3f3f3f;
   border-collapse: collapse;
-  border: 1px solid #f5bfba; }
+  border: 1px solid #e8e8e8; }
   table tr:nth-child(even) {
-    background-color: #f9d8d5; }
+    background-color: #f7f7f7; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #f7ccc7;
-    border: 1px solid #f3afa8;
-    border-bottom-color: #ee8e84; }
+    background-color: #f0f0f0;
+    border: 1px solid #dedede;
+    border-bottom-color: #c9c9c9; }
   table td {
-    border: 1px solid #f5bfba; }
+    border: 1px solid #e8e8e8; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #57130c;
-  border-bottom: 1px solid #f5bfba;
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
   position: relative; }
 
@@ -213,12 +197,12 @@ table {
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: right; }
+  float: left; }
   .site-title, .site-title:visited {
-    color: #57130c; }
+    color: #424242; }
 
 .site-nav {
-  float: left;
+  float: right;
   line-height: 54px; }
   .site-nav .nav-trigger {
     display: none; }
@@ -228,19 +212,19 @@ table {
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
-      margin-left: 20px; }
+      margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
       top: 9px;
-      left: 15px;
+      right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #f5bfba;
+      border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
       .site-nav label[for="nav-trigger"] {
         display: block;
-        float: left;
+        float: right;
         width: 36px;
         height: 36px;
         z-index: 2;
@@ -254,7 +238,7 @@ table {
         padding-top: 10px;
         text-align: center; }
         .site-nav .menu-icon > svg {
-          fill: #57130c; }
+          fill: #424242; }
       .site-nav input ~ .trigger {
         clear: both;
         display: none; }
@@ -272,7 +256,7 @@ table {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #f5bfba;
+  border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
 .footer-heading {
@@ -286,7 +270,7 @@ table {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #C72C1C;
+  color: #828282;
   margin-left: -15px; }
 
 .footer-col {
@@ -341,7 +325,7 @@ table {
 
 .post-meta {
   font-size: 14px;
-  color: #C72C1C; }
+  color: #828282; }
 
 .post-link {
   display: block;
