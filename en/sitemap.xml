@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/en/hello-world/</loc>
+<loc>http://farhadx.ir/en/hello-world/</loc>
 <lastmod>1993-02-06T20:34:03+03:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/en/create-pycharm-launcher-in-ubuntu/</loc>
+<loc>http://farhadx.ir/en/create-pycharm-launcher-in-ubuntu/</loc>
 <lastmod>2019-05-12T23:20:10+04:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/en/404/</loc>
+<loc>http://farhadx.ir/en/404/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/about/</loc>
+<loc>http://farhadx.ir/en/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/contact/</loc>
+<loc>http://farhadx.ir/en/contact/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/</loc>
+<loc>http://farhadx.ir/en/</loc>
 </url>
 </urlset>
